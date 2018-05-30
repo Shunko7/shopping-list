@@ -11,7 +11,7 @@ import services.EbeanNoteRepository;
 import javax.inject.Inject;
 import java.util.List;
 
-@With(BasicAuthenticationMiddleware.class)
+//@With(BasicAuthenticationMiddleware.class)
 public class HomeController extends Controller {
 
     protected EbeanNoteRepository noteRepository;
